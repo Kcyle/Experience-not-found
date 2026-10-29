@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// The only script in the game. Every window, button and email is wired up in the scene with UI events.
 public class Game : MonoBehaviour
 {
-    public Slider yours, wanted; // your experience vs. what employers want
-    public Text[] numbers;       // every number that goes up when you get rejected
-    public GameObject crash;     // EXPERIENCE NOT FOUND
+    public Slider yours, wanted; 
+    public Text[] numbers;       
+    public GameObject crash;   
 
     public void Reject()
     {
